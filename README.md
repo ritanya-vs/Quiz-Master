@@ -9,18 +9,6 @@ A real-time multiplayer quiz game using Python, socket programming, and multithr
 - Buzz-in system for question answering
 - Point-based scoring with winner announcement
 
-## Rules
-
-- **Objective**: Be the first to answer five questions correctly.
-- **Buzzing In**: Players press Enter to buzz for each question.
-- **Answering**: The first player to buzz can answer with 'a', 'b', 'c', or 'd'.
-- **Scoring**: Correct answers add a point; incorrect answers subtract a point.
-
-## Setup
-
-1. Run `server.py` with `python server.py <IP Address> <Port>`.
-2. Run `client.py` for each player using `python client.py <IP Address> <Port>`.
-
 ## Communication Protocols and Techniques
 
 - **TCP/IP** for reliable data transmission.
