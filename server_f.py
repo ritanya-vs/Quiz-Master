@@ -21,18 +21,20 @@ server.listen(100)
 
 list_of_clients = []
 questions = [
-    "What is the Italian word for PIE? \n a. Mozarella b. Pasty c. Patty d. Pizza",
-    "Water boils at 212 Units at which scale? \n a. Fahrenheit b. Celsius c. Rankine d. Kelvin",
-    "Which sea creature has three hearts? \n a. Dolphin b. Octopus c. Walrus d. Seal",
-    "What is the capital of France? \n a. London b. Berlin c. Paris d. Madrid",
-    "Which planet is known as the Red Planet? \n a. Earth b. Mars c. Jupiter d. Venus",
-    "What is the largest mammal in the world? \n a. Elephant b. Blue Whale c. Giraffe d. Hippo",
-    "Which element has the chemical symbol 'O'? \n a. Gold b. Oxygen c. Osmium d. Oganesson",
-    "What is the tallest mountain in the world? \n a. K2 b. Kangchenjunga c. Mount Everest d. Lhotse",
-    "Who wrote 'Romeo and Juliet'? \n a. Mark Twain b. Charles Dickens c. William Shakespeare d. J.K. Rowling",
-    "What is the hardest natural substance on Earth? \n a. Gold b. Iron c. Diamond d. Quartz",
+    "What is the capital of Japan? \n a. Beijing b. Tokyo c. Seoul d. Bangkok",
+    "Which animal is known as the King of the Jungle? \n a. Tiger b. Elephant c. Lion d. Gorilla",
+    "What gas do plants absorb from the atmosphere? \n a. Nitrogen b. Oxygen c. Carbon Dioxide d. Helium",
+    "What is the smallest planet in our solar system? \n a. Mars b. Mercury c. Venus d. Earth",
+    "Who painted the Mona Lisa? \n a. Pablo Picasso b. Vincent van Gogh c. Leonardo da Vinci d. Claude Monet",
+    "What is the main ingredient in guacamole? \n a. Tomato b. Avocado c. Spinach d. Lettuce",
+    "Which country is famous for inventing pizza? \n a. France b. Greece c. Egypt d. Italy",
+    "What is the chemical symbol for gold? \n a. Au b. Ag c. Go d. Gd",
+    "Who developed the theory of relativity? \n a. Isaac Newton b. Nikola Tesla c. Albert Einstein d. Galileo Galilei",
+    "Which ocean is the largest? \n a. Atlantic Ocean b. Indian Ocean c. Arctic Ocean d. Pacific Ocean",
 ]
-answers = ['d', 'a', 'b', 'c', 'b', 'b', 'b', 'c', 'c', 'c']  # Correct answers
+
+answers = ['b', 'c', 'c', 'b', 'c', 'b', 'd', 'a', 'c', 'd']
+
 client_scores = {}  # Track each client's score
 buzz_lock = threading.Lock()
 buzzed_client = None
